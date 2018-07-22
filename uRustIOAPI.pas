@@ -28,7 +28,7 @@ interface
 
 uses
   System.SysUtils, System.Types, IdBaseComponent, IdComponent, IdTCPConnection,
-  IdTCPClient, IdHTTP, IdZLib, Classes, IdCompressorZLib, Vcl.Imaging.jpeg;
+  IdTCPClient, IdHTTP, IdZLib, Classes, IdCompressorZLib;
 
 type
   TRustIO = class(TObject)
