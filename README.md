@@ -73,7 +73,7 @@ procedure TForm1.btn1Click(Sender: TObject);
 var
   rustio: TRustIO;
 begin
-  rustio := TRustIO.Create('API Key goes here'); // Some calls don't need a key so you can just leave it blank
+  rustio := TRustIO.Create; // Some calls don't need a key so you can just leave it blank
   mmo1.Text := rustio.GetServerStatus('129.232.180.125', '28019');
   rustio.Free;
 end;
